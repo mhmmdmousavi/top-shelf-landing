@@ -1,0 +1,16 @@
+.DS_Store      
+Thumbs.db      
+
+
+node_modules/   
+bower_components/
+
+
+dist/
+build/
+
+*.log
+
+
+*.tmp
+*.temp

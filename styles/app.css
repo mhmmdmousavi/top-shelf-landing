@@ -47,8 +47,9 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    padding: 1rem;
-    gap: 3rem;
+    padding: 1rem 0rem;
+    justify-content: space-between;
+    
 }
 .header-section1-div2-form{
     position: absolute;
@@ -60,7 +61,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    padding: 1rem;
+    padding: 1rem 0rem;
 }
 .header-section1-div2-div1{
     display: flex;
@@ -68,6 +69,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    padding-left: 1rem;
 }
 .header-section1-div2-div2{
     display: flex;
@@ -75,6 +77,7 @@ body {
     justify-content: center;
     align-items: center;
     /* gap: 1rem; */
+    padding-right: 1rem;
 }
 .header-section1-div2-div2>div{
     position: relative;
@@ -103,14 +106,45 @@ body {
 }
 .header-section1-div2-form>input{
     width: 70%;
-    height: 2rem;
-    border: 2px solid rgba(0, 0, 0, 0.226);
+    height: 3rem;
+    border: 2px solid rgba(0, 0, 0, 0.051);
     border-radius: 5rem;
 }
 .header-section1-div2-form>button{
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
     border-radius: 100%;
     border: 0 ;
     background-color: rgba(23, 175, 38, 1);
+}
+.header-section1-div2-div3{
+    display: none;
+}
+
+
+@media screen and (min-width: 768px){
+    .header-section1-div2-div1-img1{
+        display: none;
+    }
+    .header-section1-div2-form{
+        position: static;
+        border-top: none;
+        width: 40%;
+    }
+    .header-section1-div2-div3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-top: 2px solid rgba(0, 0, 0, 0.051);
+        padding: 1rem 8vw ;
+        font-weight: 400;
+    }
+
+    .header-section1-div2-div3>div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap:0.2rem;
+    }
 }
