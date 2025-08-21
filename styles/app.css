@@ -120,8 +120,175 @@ body {
 .header-section1-div2-div3{
     display: none;
 }
+.header-section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6rem;
+}
+.header-section2-div1{
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    background-image: conic-gradient(from 92deg at 50% 50%, #05422CFF 0%, #05422CFF 0%, #51A184FF 24%, #135E45FF 57%, #05422CFF 99%);
+    height: 200vw;
+    width: 100%;
+    position: relative;
+    /* display: flex;
+    flex-direction: column; */
+}
+.header-section2-div1-div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+    align-items: start;
+    padding-top: 6vw;
+    padding-left: 4vw;
+}
+.header-section2-div1-div1-span1{
+    color: rgba(242, 188, 27, 1);
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+.header-section2-div1-div1>p{
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: -1px;
 
+}
+.header-section2-div1-div1-span2{
+    color: rgba(244, 244, 244, 1);
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+.header-section2-div1-div1>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 6vw;
+}
+.header-section2-div1-div1>div>p{
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 1);
+}
+.header-section2-div1-div1>button{
+    width: 30vw;
+    margin-top: 3vw;
+    height: 15vw;
+    border-radius: 15vw;
+    background-color: rgba(23, 175, 38, 1);
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    font-size: 1rem;
+}
+.header-section2-div1-div2{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+}
+.header-section2-div1-div2-img1{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.header-section2-div1-div2-img2{
+    position: absolute;
+    left: 0%;
+    bottom: 20%;
+    width: 40vw;
+}
+.header-section2-div1-div2-img3{
+    position: absolute;
+    left: 28%;
+    bottom: 50%;
+    width: 40vw;
+}
+.header-section2-div1-div2-img4{
+    position: absolute;
+    left: 56%;
+    bottom: 21%;
+    width: 40vw;
+}
+.header-section2-div2{
+    background-color: rgba(242, 246, 244, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header-section2-div2-div1{
+    padding: 10vw 5vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 30vw;
 
+}
+.header-section2-div2-div1>img{
+    position: absolute;
+    left: 6vw;
+    width: 17vw;
+}
+.header-section2-div2-div1>p{
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding-bottom: 5vw;
+}
+.header-section2-div2-div1>span{
+    color: rgba(113, 115, 120, 1);
+    font-size: 1.1rem;
+    line-height: 6vw;
+}
+
+.header-section2-div2-div2{
+    padding: 10vw 5vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 30vw;
+
+}
+.header-section2-div2-div2>img{
+    position: absolute;
+    left: 6vw;
+    width: 17vw;
+}
+.header-section2-div2-div2>p{
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding-bottom: 5vw;
+}
+.header-section2-div2-div2>span{
+    color: rgba(113, 115, 120, 1);
+    font-size: 1.1rem;
+    line-height: 6vw;
+}
+
+.header-section2-div2-div3{
+    padding: 10vw 5vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 30vw;
+
+}
+.header-section2-div2-div3>img{
+    position: absolute;
+    left: 6vw;
+    width: 17vw;
+}
+.header-section2-div2-div3>p{
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding-bottom: 5vw;
+}
+.header-section2-div2-div3>span{
+    color: rgba(113, 115, 120, 1);
+    font-size: 1.1rem;
+    line-height: 6vw;
+}
 @media screen and (min-width: 768px){
     .header-section1-div2-div1-img1{
         display: none;
@@ -146,5 +313,211 @@ body {
         justify-content: center;
         align-items: center;
         gap:0.2rem;
+        white-space: nowrap;
+        overflow: hidden;
     }
+    .header-section2{
+        padding-top: 0;
+    }
+    .header-section2-div1{
+        display: flex;
+        flex-direction: row;
+        background-size: 100% 100%;
+        background-position: 0px 0px;
+        background-image: conic-gradient(from 92deg at 50% 50%, #05422CFF 0%, #05422CFF 0%, #51A184FF 24%, #135E45FF 57%, #05422CFF 99%);
+        height: 50vw;
+        width: 100%;
+        position: relative;
+    }
+    .header-section2-div1-div1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 80%;
+        align-items: start;
+        padding-top: 6vw;
+        padding-left: 4vw;
+    }
+
+    .header-section2-div1-div2{
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .header-section2-div1-div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70%;
+    align-items: start;
+    padding-top: 6vw;
+    padding-left: 4vw;
+}
+.header-section2-div1-div1-span1{
+    color: rgba(242, 188, 27, 1);
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+.header-section2-div1-div1>p{
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: -1px;
+
+}
+.header-section2-div1-div1-span2{
+    color: rgba(244, 244, 244, 1);
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+.header-section2-div1-div1>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 6vw;
+}
+.header-section2-div1-div1>div>p{
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 1);
+}
+.header-section2-div1-div1>button{
+    width: 20vw;
+    margin-top: 3vw;
+    height: 7vw;
+    border-radius: 15vw;
+    background-color: rgba(23, 175, 38, 1);
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    font-size: 1rem;
+}
+.header-section2-div1-div2-img1{
+    position: absolute;
+    width: 80%;
+    bottom: 0;
+    right: 0;
+}
+.header-section2-div1-div2-img2{
+    position: absolute;
+    left: 22%;
+    bottom: 20%;
+    width: 13vw;
+}
+.header-section2-div1-div2-img3{
+    position: absolute;
+    left: 47%;
+    bottom: 48%;
+    width: 13vw;
+}
+.header-section2-div1-div2-img4{
+    position: absolute;
+    left: 71%;
+    bottom: 21%;
+    width: 13vw;
+}
+.header-section2-div2{
+    background-color: rgba(242, 246, 244, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 5%;
+}
+.header-section2-div2-div1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 5vw 0vw;
+    padding-left: 0vw;
+    width: 25%;
+}
+.header-section2-div2-div1>div{
+    border-radius: 100%;
+    background-color: white;
+    position: absolute;
+    left: -7vw;
+    width: 5vw;
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.header-section2-div2-div1>div>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.header-section2-div2-div1>p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-bottom: 2vw;
+}
+.header-section2-div2-div1>span{
+    color: rgba(113, 115, 120, 1);
+    font-size: 0.8rem;
+    line-height: 2vw;
+}
+
+.header-section2-div2-div2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 5vw 0vw;
+    padding-left: 0vw;
+    width: 25%;
+}
+.header-section2-div2-div2>div{
+    border-radius: 100%;
+    background-color: white;
+    position: absolute;
+    left: -7vw;
+    width: 5vw;
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-section2-div2-div2>p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-bottom: 2vw;
+}
+.header-section2-div2-div2>span{
+    color: rgba(113, 115, 120, 1);
+    font-size: 0.8rem;
+    line-height: 2vw;
+}
+
+.header-section2-div2-div3{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 5vw 0vw;
+    padding-left: 0vw;
+    width: 25%;
+}
+.header-section2-div2-div3>div{
+    border-radius: 100%;
+    background-color: white;
+    position: absolute;
+    left: -7vw;
+    width: 5vw;
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-section2-div2-div3>p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-bottom: 2vw;
+}
+.header-section2-div2-div3>span{
+    color: rgba(113, 115, 120, 1);
+    font-size: 0.8rem;
+    line-height: 2vw;
+}
 }
