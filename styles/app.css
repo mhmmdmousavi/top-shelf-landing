@@ -226,10 +226,22 @@ body {
     padding-left: 30vw;
 
 }
-.header-section2-div2-div1>img{
+.header-section2-div2-div1>div{
     position: absolute;
     left: 6vw;
     width: 17vw;
+    height: 17vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: white;
+        overflow: hidden;
+}
+.header-section2-div2-div1>div>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .header-section2-div2-div1>p{
     font-size: 1.6rem;
@@ -250,10 +262,22 @@ body {
     padding-left: 30vw;
 
 }
-.header-section2-div2-div2>img{
+.header-section2-div2-div2>div{
     position: absolute;
     left: 6vw;
     width: 17vw;
+    height: 17vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: white;
+        overflow: hidden;
+}
+.header-section2-div2-div2>div>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .header-section2-div2-div2>p{
     font-size: 1.6rem;
@@ -274,10 +298,22 @@ body {
     padding-left: 30vw;
 
 }
-.header-section2-div2-div3>img{
+.header-section2-div2-div3>div{
     position: absolute;
     left: 6vw;
     width: 17vw;
+    height: 17vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: white;
+        overflow: hidden;
+}
+.header-section2-div2-div1>div>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .header-section2-div2-div3>p{
     font-size: 1.6rem;
@@ -289,6 +325,122 @@ body {
     font-size: 1.1rem;
     line-height: 6vw;
 }
+.main-section1{
+    background-color: rgba(1, 16, 11, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding:30vw 8vw;
+    
+    gap: 15vw;
+    
+}
+.main-section1>h3{
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+.main-section1>p{
+    padding-top: 5vw;
+    color: rgba(157, 158, 162, 0.573);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
+.main-section1-div1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5vw;
+}
+.main-section1-div1-div1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4vw;
+    position: relative;
+}
+.main-section1-div1-div1-span1{
+    background-color: rgba(242, 188, 27, 1);
+    width: 6vw;
+    height: 6vw;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+.main-section1-div1-div1-span2{
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: center;
+}
+.main-section1-div1-div1>p{
+    color: rgba(157, 158, 162, 1);
+    font-size: 0.95rem;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+}
+.main-section1-div1-div2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4vw;
+    position: relative;
+}
+.main-section1-div1-div2-span1{
+    background-color: rgba(242, 188, 27, 1);
+    width: 6vw;
+    height: 6vw;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+.main-section1-div1-div2-span2{
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: center;
+}
+.main-section1-div1-div2>p{
+    color: rgba(157, 158, 162, 1);
+    font-size: 0.95rem;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+}
+.main-section1>button{
+    background-color: rgba(23, 175, 38, 1);
+    width: 40vw;
+    height: 15vw;
+    align-items: center;
+    color: white;
+    border-radius: 15vw;
+    font-size: 1.1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 768px){
     .header-section1-div2-div1-img1{
         display: none;
@@ -479,6 +631,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+        overflow: hidden;
 }
 .header-section2-div2-div2>p{
     font-size: 1.2rem;
@@ -509,6 +662,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+        overflow: hidden;
 }
 .header-section2-div2-div3>p{
     font-size: 1.2rem;
@@ -519,5 +673,107 @@ body {
     color: rgba(113, 115, 120, 1);
     font-size: 0.8rem;
     line-height: 2vw;
+}
+.main-section1{
+    background-color: rgba(1, 16, 11, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding:8vw 8vw;
+    gap: 5vw;
+    
+}
+.main-section1>h3{
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+}
+.main-section1>p{
+    padding-top: 0;
+    color: rgba(157, 158, 162, 0.573);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
+.main-section1-div1{
+    padding-top:2vw ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5vw;
+}
+.main-section1-div1-div1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2vw;
+    position: relative;
+}
+.main-section1-div1-div1-span1{
+    background-color: rgba(242, 188, 27, 1);
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 9vw;
+    text-align: center;
+}
+.main-section1-div1-div1-span2{
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: center;
+}
+.main-section1-div1-div1>p{
+    color: rgba(157, 158, 162, 1);
+    font-size: 0.95rem;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+}
+.main-section1-div1-div2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2vw;
+    position: relative;
+}
+.main-section1-div1-div2-span1{
+    background-color: rgba(242, 188, 27, 1);
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 9;
+    text-align: center;
+}
+.main-section1-div1-div2-span2{
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: center;
+}
+.main-section1-div1-div2>p{
+    color: rgba(157, 158, 162, 1);
+    font-size: 0.95rem;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+}
+.main-section1>button{
+    background-color: rgba(23, 175, 38, 1);
+    width: 20vw;
+    height: 7vw;
+    align-items: center;
+    color: white;
+    border-radius: 15vw;
+    font-size: 1.3rem;
 }
 }
